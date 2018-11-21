@@ -5,6 +5,7 @@ import android.content.Context
 import android.content.res.Configuration
 import android.content.res.Resources
 import android.os.Build
+import android.util.Log
 
 /**
  * <pre>
@@ -23,8 +24,6 @@ import android.os.Build
  * </pre>
  */
 class MyApplication : Application() {
-
-
     override fun onCreate() {
         super.onCreate()
     }
