@@ -23,6 +23,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
         Log.e("MainActivity", getCurrentTime())
         val memoryFile = MemoryFile("firstMemoryFile", 1024)
+
     }
 
     private fun getCurrentTime(): String {
