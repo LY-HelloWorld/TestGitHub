@@ -25,6 +25,7 @@ import android.util.Log
  */
 class MyApplication : Application() {
     //测试git 分支
+    //再测试
     override fun onCreate() {
         super.onCreate()
     }
