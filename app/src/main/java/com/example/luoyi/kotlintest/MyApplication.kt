@@ -23,8 +23,6 @@ import android.os.Build
  * </pre>
  */
 class MyApplication : Application() {
-
-
     override fun onCreate() {
         super.onCreate()
     }
