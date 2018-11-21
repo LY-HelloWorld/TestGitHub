@@ -21,10 +21,8 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-        //setRegister()
         Log.e("MainActivity", getCurrentTime())
         val memoryFile = MemoryFile("firstMemoryFile", 1024)
-
     }
 
     private fun getCurrentTime(): String {
